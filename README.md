@@ -1,2 +1,2 @@
-# Operating-System
-Complete OS fundamentals
+# OPERATING-SYSTEM
+COMPLETE OS FUNDAMENTALS
