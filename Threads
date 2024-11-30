@@ -20,7 +20,7 @@ int main() {
     int thread_ids[5];    // Array to hold thread IDs
     int i;
 
-    // Creating 5 threads
+    // Creating 5 threads.
     for (i = 0; i < 5; i++) {
         thread_ids[i] = i + 1; // Assign thread ID
         if (pthread_create(&threads[i], NULL, threadFunction, &thread_ids[i]) != 0) {
