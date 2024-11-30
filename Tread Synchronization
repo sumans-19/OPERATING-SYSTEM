@@ -3,7 +3,7 @@ it uses a condition variable (Condition) to coordinate the execution of two thre
 
 
 CODE =>
-from threading import *
+from threading import*
 import time
 
 cond = Condition()
