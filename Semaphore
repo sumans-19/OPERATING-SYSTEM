@@ -1,7 +1,7 @@
 This code demonstrates the use of semaphores in multithreading. A semaphore is a synchronization primitive used to control access to a shared resource by multiple threads.
 
 CODE =>
-from threading import *
+from threading import*
 import time
 
 sem = Semaphore(3)
